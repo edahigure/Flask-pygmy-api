@@ -17,3 +17,6 @@ dist
 .DS_Store
 .cache
 .pytest_cache/
+__pycache__
+.serverless
+node_modules
