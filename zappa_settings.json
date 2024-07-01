@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "aws_region": "us-east-2",
+        "django_settings": "pygmy.rest.wsgi:app",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "profile_name": "default",
+        "project_name": "api-django-app",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-h93ciowqc",
+        "environment_variables": {
+          "DATABASE_URL": "mysql://admin:Ed_95611189@django-mysqldb.cdmyq064u1wh.us-east-2.rds.amazonaws.com:3306/djangodb",
+          "DB_HOST": "django-mysqldb.cdmyq064u1wh.us-east-2.rds.amazonaws.com",
+          "DB_PORT": "3306",
+          "DB_USER": "admin",
+          "DB_PASSWORD": "Ed_95611189",
+          "DB_NAME": "djangodb"
+        }
+
+    }
+}
